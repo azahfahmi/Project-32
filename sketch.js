@@ -28,7 +28,7 @@ function setup() {
   block14 = new Block(390, 195, 30, 40);
   block15 = new Block(420, 195, 30, 40);
   block16 = new Block(390, 155, 30, 40);
-
+  
   polygon = Bodies.circle(50, 200, 20) ;
   World. add (world, polygon) ;
 
@@ -63,6 +63,7 @@ function draw() {
   block14.display();
   block15.display();
   block16.display();
+  //slingshot.display();
   drawSprites();
 }
 
